@@ -5,6 +5,13 @@ const nextConfig = {
   images: {
     domains: ["images.unsplash.com"],
   },
+  exportPathMap: async function (defaultPathMap) {
+        return {
+            '/': { page: '/' },
+            '/about': { page: '/about' },
+            // Agrega otras rutas aquí si es necesario
+        }
+    },
   webpack: (config, { isServer }) => {
         // Configuración de Webpack para la caché
         config.cache = {
