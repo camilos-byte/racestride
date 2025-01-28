@@ -5,11 +5,6 @@ const nextConfig = {
   images: {
     domains: ["images.unsplash.com"],
   },
-  optimization: {
-    splitChunks: {
-        chunks: 'all',
-    },
-  },
 };
 
 module.exports = nextConfig;
