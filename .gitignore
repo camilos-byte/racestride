@@ -26,6 +26,9 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
+#weckpac
+cache/webpack/
+
 # local env files
 .env*.local
 
