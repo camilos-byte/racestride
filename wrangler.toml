@@ -1,0 +1,3 @@
+name = "racestride"
+compatibility_date = "2025-01-28" # Usa la fecha actual
+node_compat = true
