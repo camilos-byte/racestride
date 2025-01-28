@@ -5,8 +5,6 @@ const nextConfig = {
   images: {
     domains: ["images.unsplash.com"],
   },
-  output: 'export', 
-  trailingSlash: true, 
   exportPathMap: async function (defaultPathMap) {
         return {
             '/': { page: '/' },
