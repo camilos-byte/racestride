@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "rm -rf .next/cache/webpack/client-production/0.pack"
     "start": "next start",
     "lint": "next lint"
   },
